@@ -26,6 +26,7 @@ void selectionSort(vector<int>& arr, int n)
             
         }
         swap(arr[minIndex], arr[i]);
+        6
     }
 }
 

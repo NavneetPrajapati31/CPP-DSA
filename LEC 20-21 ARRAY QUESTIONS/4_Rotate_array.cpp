@@ -31,6 +31,8 @@ void rotate(vector<int> nums, int k) {
         nums[i] = temp[i];
       }
       
+      printarr(nums,nums.size());
+
     }
 
 
@@ -48,6 +50,5 @@ int main()
     }
 
     rotate(arr,k);
-    printarr(arr,n);
-
+    
 }

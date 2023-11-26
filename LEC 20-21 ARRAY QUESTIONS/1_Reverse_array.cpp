@@ -34,10 +34,10 @@ int main() {
     v.push_back(12);
     v.push_back(4);
 
-    vector<int> ans = reverse(v);
+    
 
     cout << "Printing reverse Array" <<endl;
-    print(ans);
+    print(reverse(v));
 
 
     return 0;

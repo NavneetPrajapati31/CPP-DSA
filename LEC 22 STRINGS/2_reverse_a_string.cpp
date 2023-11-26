@@ -10,14 +10,17 @@ void reverse(char name[], int n)
     while(s<e) {
         swap(name[s++], name[e--]);
     }
+
 }
 
 int main()
 {
-    char name[10];
+    int n;
+    cin>>n;
+    char name[n];
     cin>>name;
 
-    reverse(name,10);
+    reverse(name,n);
     cout<<name<<endl;
 
 }
