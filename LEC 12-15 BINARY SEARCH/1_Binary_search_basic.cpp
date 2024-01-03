@@ -1,11 +1,11 @@
-//BINARY SEARCH BASIC CODE
+//BINARY SEARCH BASIC CODE                                              
 
 /*
 FINDING THE MID ELEMENT OF ARRAY,
 THEN AS PER GIVEN 3 CONDITIONS (==,>,<) TRAVERSE!!
 RETURN KEY FOUND OR NOT
 */
-
+ 
 
 #include<iostream>
 using namespace std;
