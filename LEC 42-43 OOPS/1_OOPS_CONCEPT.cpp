@@ -1,4 +1,5 @@
 //OOPS
+//https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbVJsbUkyZjBrUGpreHlYUXFyc2Z5QmF3dWlsUXxBQ3Jtc0trYVlKbmxKQlNsTGRPREdxZENQS2NvVDFjbkYyRFo3TGVCbzFISlpHYkN4Tm11YkV4bW5Bb19kc1hLUUNCOEF0eW04blFBejNwbWtTZUlpeTlCb2VUeV90OUNoc2ZodDRoUjRWUmZxSXQxME85MUI0WQ&q=https%3A%2F%2Fwww.codingninjas.com%2Fcodestudio%2Fguided-paths%2Fbasics-of-c%2Fcontent%2F118817%2Foffering%2F1382190&v=i_5pvt7ag7E
 
 
 #include<iostream>
