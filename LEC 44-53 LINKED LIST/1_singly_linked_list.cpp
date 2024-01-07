@@ -111,7 +111,7 @@ void deletenode(node* &head, int position)
     if(position == 1)
     {
         node* temp = head;
-        temp = temp->next;
+        head = head->next;
 
         //delete
         temp->next = NULL;
@@ -160,8 +160,11 @@ int main()
     insertmiddle(head,tail,4,8);
     print(head);
 
-    deletenode(head,3);
+    deletenode(head,4);
     print(head);
+
+    cout<<head->data<<endl;
+    cout<<tail->data<<endl;
  
 
     return 0;
