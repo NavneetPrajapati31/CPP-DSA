@@ -1,3 +1,6 @@
+// Next Smaller Element : https://bit.ly/34GjYL4
+
+
 #include<iostream>
 #include<stack>
 #include<vector>
