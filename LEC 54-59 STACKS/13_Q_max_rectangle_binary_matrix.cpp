@@ -1,0 +1,3 @@
+//Max Rectangle in Binary Matrix with all 1's : https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbjAyVXJXT0Nka29rbWdVcV9LZzFmSWtZOFBOUXxBQ3Jtc0tucVZTYTRBWVQtaUs1ZExVWjlZajQwVTBHSkRKQjVmaXYxQ1RXS0hyQzZTQ0xpR2VGOG04Y1ExWmZ6TXVMQUlBQVkzSkEyNjc2c3JNUkR0Und2X2plMVlKZzlKZVprTUdBQTlHRHhhTEUyM0dWMXR2Yw&q=https%3A%2F%2Fpractice.geeksforgeeks.org%2Fproblems%2Fmax-rectangle%2F1%2F&v=9u2BJfmWNEg
+
+
