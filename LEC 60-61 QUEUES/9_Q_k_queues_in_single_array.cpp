@@ -1,0 +1,3 @@
+//K Queue in Single Array : https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbW1oUnl4ak95d3VFN1dSSFhBV3VXdlBCRWRnQXxBQ3Jtc0ttUEZFN1BaWDFkcHVqS2Fia05SZFgzWHUzV2NlVzhaRE1jVlhhSFhzT3B5RFotcDk3ZW9CMm9NSXRSTW1JVVlhWFlNcGk2cFFfNE5Bb3I2Q3hKd2YyOW1XS3NiS25kcW9tS0loVmdZazR0RVNwRzdNOA&q=https%3A%2F%2Fwww.geeksforgeeks.org%2Fefficiently-implement-k-queues-single-array%2F&v=_gJ3to4RyeQ
+
+
