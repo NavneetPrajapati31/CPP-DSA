@@ -1,7 +1,6 @@
 // FINDING THE PIVOT i.e. THE INDEX OF THE SMALLEST ELEMENT IN THE ROTATED ARRAY!!
 
 
-
 #include<iostream>
 using namespace std;
 
@@ -35,9 +34,9 @@ return s;
 
 int main()
 {
-    int n;
-    cin>>n;
-    int arr[n];
+int n;
+cin>>n;
+int arr[n];
 for(int i=0;i<n;i++)
 {
     cin>>arr[i];

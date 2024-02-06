@@ -21,7 +21,6 @@ e=mid;
 else
 {
     s=mid+1;
-
 }
 
 mid=s+(e-s)/2;
