@@ -16,7 +16,7 @@ void printarr(vector<int> arr,int n)
 }
 
 
-void insertionSort(int n, vector<int> &arr){
+void insertionSort(vector<int> &arr, int n){
     
     for(int i = 1; i<n; i++) {
         int temp = arr[i];
@@ -50,7 +50,7 @@ int main()
         arr.push_back(element);
     }
 
-    insertionSort(n,arr);
+    insertionSort(arr,n);
     printarr(arr,n);
 
 
