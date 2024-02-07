@@ -27,7 +27,7 @@ void movezeroes(vector<int> nums)
         }
 
     }
-}
+}                                                                                       
 
 
 int main()
