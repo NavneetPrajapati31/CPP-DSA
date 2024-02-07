@@ -70,6 +70,7 @@ void mergesort(int *arr,int s, int e)
     mergesort(arr,mid+1,e);
 
     merge(arr,s,e);
+    
 }
 
 

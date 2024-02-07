@@ -1,1 +1,0 @@
-printcount(n-1);
