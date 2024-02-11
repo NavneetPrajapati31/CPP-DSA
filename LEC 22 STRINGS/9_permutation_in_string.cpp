@@ -11,6 +11,7 @@ bool checkequal(int a[26],int b[26])
     }
     return 1;
 }
+
 bool checkinclusion(string s1,string s2)
 {
     //character count array

@@ -67,6 +67,5 @@ using namespace std;
     {
     char name[10];
     cin>>name;
-  
     cout<<"Palindrome : "<<checkPalindrome(name)<<endl;
     }
