@@ -28,7 +28,7 @@ int getSum(int *arr, int n)
     return sum;
 }
 
-int main() 
+int main()
 {
 /*
     int value = 5;
