@@ -16,8 +16,8 @@ int countdistinctways(int nstairs)
 
 
     //recursive relation
-    int ans = countdistinctways(nstairs-1) + countdistinctways(nstairs-2);
-    return ans;
+    return countdistinctways(nstairs-1) + countdistinctways(nstairs-2);
+
 
 }
 
