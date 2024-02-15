@@ -4,6 +4,7 @@
 #include<iostream>
 #include<vector>
 #include<string>
+#include<algorithm>
 
 using namespace std;
 
@@ -101,9 +102,4 @@ if(m[0][0]==0)
      solve(m,n,ans,srcx,srcy,visited,path);
      sort(ans.begin(),ans.end());
      return ans;
-}
-
-int main()
-{
-
 }
