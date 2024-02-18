@@ -57,42 +57,50 @@ cout<<endl;
 
 }
 
-node* kreverse(node* &head, int k)
-{
-    //base condition
-
-    if(head == NULL)
+node* kReverse(node* head, int k) {
+      if(head == NULL || head->next == NULL)
     {
-        return NULL;
+        return head;
     }
 
-    //step1 reverse first k nodes
-    node* next = NULL;
     node* curr = head;
     node* prev = NULL;
+    node* forward = NULL;
+
+    node* temp = head;
+    int len = 0;
+    while(temp!=NULL)
+    {
+        len++;
+        temp = temp->next;
+    }
+
+    if(k>len)
+    {
+        return head;
+    }
 
     int cnt = 0;
 
-    while(curr!= NULL && cnt < k)
+    while(curr!=NULL && cnt<k)
     {
-        next = curr -> next;                                                                                                                                                                                                                                                               
+        cnt++;
+        forward = curr->next;
         curr->next = prev;
         prev = curr;
-        curr = next;
-        cnt++;
+        curr = forward;
     }
 
-    //step2 recursion dekhega aage ka
-
-    if(next != NULL)
+   
+    if(forward!=NULL)
     {
-        head->next = kreverse(next,k);
+        head->next = kReverse(forward,k);
     }
-
-    //step3 return head of reversed list
 
     return prev;
+
 }
+
 
 int main()
 {
@@ -105,5 +113,5 @@ int main()
     insertathead(head,35);
 
     print(head);
-    cout<<kreverse(head,2)->data<<endl;
+    cout<<kReverse(head,2)->data<<endl;
 }

@@ -64,7 +64,8 @@ void reverse(node* &head)
 {
     if(head == NULL || head->next == NULL)
     {
-        cout<<"head"<<endl;
+        cout<<head->data<<endl;
+        return;
     }
 
     node* prev = NULL;
