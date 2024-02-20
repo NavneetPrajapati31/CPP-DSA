@@ -11,16 +11,16 @@ class Queue {
     public:
 
     int *arr;
-    int qfront;
+    int front;
     int rear;
     int size;
     
 
-    Queue() 
+    Queue(int size) 
     {
-        size = 10001;
+        this->size = size;
         arr = new int[size];
-        qfront = 0;
+        front = 0;
         rear = 0;
         
     }
@@ -29,7 +29,7 @@ class Queue {
 
     bool isEmpty() {
 
-        if(qfront == rear)
+        if(front == rear)
         {
             return true;
         }
@@ -55,16 +55,16 @@ class Queue {
     }
 
     int dequeue() {
-        if(qfront == rear)
+        if(front == rear)
         {
             return -1;
         }
 
         else
         {
-            int val = arr[qfront];
-            arr[qfront] = -1;
-            qfront++;
+            int val = arr[front];
+            arr[front] = -1;
+            front++;
             return val;
         }
 
@@ -73,14 +73,14 @@ class Queue {
     }
 
     int front() {
-        if(qfront == rear)
+        if(front == rear)
         {
             return -1;
         }
 
         else
         {
-            return arr[qfront];
+            return arr[front];
         }
     
     }
