@@ -1,4 +1,4 @@
-//First Non-Repeating character in stream : https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa1ZDeklQSjFBc3B4aXJfcnlrSWM2TXY3NjM2d3xBQ3Jtc0tuQi1aelhRcHVHQWluSDVOTEdSTktvWG5hZ3k0Y0V0cEhLYlByU19TUENZX0NBYmxoLWgxMk5obEx1Vk92YVZoYzFvMF9VV0RkQmlXZjh3a242QmZHYjhkdzVLMmdLMnRMeXRoalNLYWhTYWt6VHJqRQ&q=https%3A%2F%2Fpractice.geeksforgeeks.org%2Fproblems%2Ffirst-non-repeating-character-in-a-stream1216%2F1&v=_gJ3to4RyeQ
+//First Non-Repeating character in stream : https://www.codingninjas.com/studio/problems/first-non-repeating-character_920324
 
 #include<bits/stdc++.h>
 #include<iostream>

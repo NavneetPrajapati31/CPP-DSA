@@ -233,7 +233,7 @@ node* floydcycledetection(node* head)
     {
         fast = fast->next;
         
-        while(fast != NULL)
+        if(fast != NULL)
         {
             fast = fast -> next;
         }
