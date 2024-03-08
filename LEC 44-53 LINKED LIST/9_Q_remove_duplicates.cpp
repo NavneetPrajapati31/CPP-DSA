@@ -147,7 +147,7 @@ void deletenode(node* &head, int position)
 
 
 
-//remove duplicate nodes in soted ll
+//remove duplicate nodes in sorted ll
 
 node* removedupinsorted(node* &head)
 {
@@ -204,6 +204,5 @@ int main()
 
      removedupinsorted(head);
      print(head);
-
 
 }
