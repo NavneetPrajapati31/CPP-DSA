@@ -24,16 +24,14 @@ void insertionSort(vector<int> &arr, int n){
         for(; j>=0; j--) {
             
             if(arr[j] > temp) {
-                //shift
-                arr[j+1] = arr[j];
+                //swap
+                swap(arr[j+1],arr[j]);
             }
             else { // rukk jao
                 break;
             }
             
-        }
-        //copy temp value
-        arr[j+1] = temp;  
+        }      
     } 
 }
 
