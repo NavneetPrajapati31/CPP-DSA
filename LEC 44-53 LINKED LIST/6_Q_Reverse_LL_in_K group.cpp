@@ -85,7 +85,7 @@ node* kReverse(node* head, int k) {
     while(curr!=NULL && cnt<k)
     {
         cnt++;
-        forward = curr->next;
+        forward = curr->next;   
         curr->next = prev;
         prev = curr;
         curr = forward;
