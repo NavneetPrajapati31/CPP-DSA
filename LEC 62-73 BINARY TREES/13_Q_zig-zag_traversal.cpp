@@ -1,2 +1,53 @@
-//ZigZag Traversal: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa3V6bjVxQUk4THBHSTBTV2lSYThtcWcycXZxZ3xBQ3Jtc0ttdDNLc2ZQbS1NVjAtX1Z5dWRNLURoaEV5Y1JvRWNqUGdRY3FBaC1KSkhGOHBYYTg1aTUySW9NUkJodjhtaTFVeTVrM0M1a01fSUpTc1p2em9Td3ducTJLN1JwTFJ0Ty1rMFR3Q2Z0X1VsRU5Gc21OWQ&q=https%3A%2F%2Fpractice.geeksforgeeks.org%2Fproblems%2Fzigzag-tree-traversal%2F1%2F&v=s1d8UGDCCN8
+//ZigZag Traversal: https://www.naukri.com/code360/problems/zig-zag-traversal_1062662
 
+vector<int> zigZagTraversal(BinaryTreeNode<int> *root)
+{
+    // Write your code here!
+    vector<int> result;
+    if(root == NULL)
+    {
+        return result;
+    }
+
+    bool lefttoRight = true;
+
+    queue<BinaryTreeNode<int> *> q;
+    q.push(root);
+
+    while(!q.empty())
+    {
+        int size = q.size();
+        vector<int> ans(size);
+        
+
+        for(int i=0;i<size;i++)
+        {
+            BinaryTreeNode<int> * frontNode = q.front();
+            q.pop();
+
+            int index = lefttoRight? i:size-i-1;
+
+            ans[index] = frontNode->data;
+
+            if(frontNode->left)
+            {
+                q.push(frontNode->left);
+            }
+
+            if(frontNode->right)
+            {
+                q.push(frontNode->right);
+            }
+        }
+
+        lefttoRight = !lefttoRight;
+
+        for(auto i:ans)
+        {
+            result.push_back(i);
+        }
+    }
+
+    return result;
+
+}
