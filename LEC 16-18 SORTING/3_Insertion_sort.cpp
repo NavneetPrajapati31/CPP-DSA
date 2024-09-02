@@ -29,8 +29,7 @@ void insertionSort(vector<int> &arr, int n){
             }
             else { // rukk jao
                 break;
-            }
-            
+            }   
         }      
     } 
 }
